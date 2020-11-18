@@ -1,0 +1,14 @@
+E:\Semester3\SEP\Perpustakaan\Perpustakaan\bin\Debug\Perpustakaan.exe
+E:\Semester3\SEP\Perpustakaan\Perpustakaan\bin\Debug\Perpustakaan.pdb
+E:\Semester3\SEP\Perpustakaan\Perpustakaan\bin\Debug\Perpustakaan.xml
+E:\Semester3\SEP\Perpustakaan\Perpustakaan\obj\x86\Debug\Perpustakaan.FrLogin.resources
+E:\Semester3\SEP\Perpustakaan\Perpustakaan\obj\x86\Debug\Perpustakaan.Resources.resources
+E:\Semester3\SEP\Perpustakaan\Perpustakaan\obj\x86\Debug\Perpustakaan.vbproj.GenerateResource.Cache
+E:\Semester3\SEP\Perpustakaan\Perpustakaan\obj\x86\Debug\Perpustakaan.exe
+E:\Semester3\SEP\Perpustakaan\Perpustakaan\obj\x86\Debug\Perpustakaan.xml
+E:\Semester3\SEP\Perpustakaan\Perpustakaan\obj\x86\Debug\Perpustakaan.pdb
+E:\Semester3\SEP\Perpustakaan\Perpustakaan\obj\x86\Debug\Perpustakaan.FrMainMenu.resources
+E:\Semester3\SEP\Perpustakaan\Perpustakaan\obj\x86\Debug\Perpustakaan.FrBuku.resources
+E:\Semester3\SEP\Perpustakaan\Perpustakaan\obj\x86\Debug\Perpustakaan.FrAnggota.resources
+E:\Semester3\SEP\Perpustakaan\Perpustakaan\obj\x86\Debug\Perpustakaan.FrPinjam.resources
+E:\Semester3\SEP\Perpustakaan\Perpustakaan\obj\x86\Debug\Perpustakaan.FrAboutApp.resources

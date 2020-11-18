@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4378708F-E1FD-4C2E-B1ED-6FFE245EBEE3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Perpustakaan.My.MyApplication</StartupObject>
+    <RootNamespace>Perpustakaan</RootNamespace>
+    <AssemblyName>Perpustakaan</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Perpustakaan.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Perpustakaan.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrAboutApp.Designer.vb">
+      <DependentUpon>FrAboutApp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrAboutApp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrAnggota.Designer.vb">
+      <DependentUpon>FrAnggota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrAnggota.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrBuku.Designer.vb">
+      <DependentUpon>FrBuku.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrBuku.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrLogin.Designer.vb">
+      <DependentUpon>FrLogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrMainMenu.Designer.vb">
+      <DependentUpon>FrMainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrMainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrPinjam.Designer.vb">
+      <DependentUpon>FrPinjam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrPinjam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrAboutApp.resx">
+      <DependentUpon>FrAboutApp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrAnggota.resx">
+      <DependentUpon>FrAnggota.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrBuku.resx">
+      <DependentUpon>FrBuku.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrLogin.resx">
+      <DependentUpon>FrLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrMainMenu.resx">
+      <DependentUpon>FrMainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrPinjam.resx">
+      <DependentUpon>FrPinjam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
